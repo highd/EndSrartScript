@@ -1,0 +1,88 @@
+[
+    {
+        "mode": "ADD",
+        "result": "avaritia:dire_crafting",
+        "catalyst": "avaritia:very_compressed_workbench",
+        "energy": 100000000,
+        "tier": 2,
+        "ingredients": [
+            "avaritia:block_resource,1,2",
+            "avaritia:block_resource,1,2",
+			"bloodmagic:BlockCrystal",
+			"bloodmagic:BlockCrystal",
+			"aether_legacy:enchanted_gravitite",
+			"aether_legacy:enchanted_gravitite",
+            "rftoolsdim:dimension_builder",
+            "rftoolsdim:dimension_builder",
+            "ic2:te,1,63",
+            "ic2:te,1,63"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "rftoolsdim:dimension_builder",
+        "catalyst": "rftools:builder",
+        "energy": 7000000,
+        "tier": 1,
+        "ingredients": [
+            "avaritia:block_resource,1,2",
+            "avaritia:block_resource,1,2",
+			"bloodarsenal:ItemBloodDiamond,1,2",
+			"bloodarsenal:ItemBloodDiamond,1,2",
+			"mekanism:ControlCircuit,1,3",
+			"mekanism:ControlCircuit,1,3",
+            "bigreactors:blockmetals,1,4",
+            "bigreactors:blockmetals,1,4"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_helm",
+        "catalyst": "draconicevolution:wyvern_helm"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_chest",
+        "catalyst": "draconicevolution:wyvern_chest"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_legs",
+        "catalyst": "draconicevolution:wyvern_legs"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_boots",
+        "catalyst": "draconicevolution:wyvern_boots"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_pick",
+        "catalyst": "draconicevolution:wyvern_pick"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_axe",
+        "catalyst": "draconicevolution:wyvern_axe"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_sword",
+        "catalyst": "draconicevolution:wyvern_sword"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_bow",
+        "catalyst": "draconicevolution:wyvern_bow"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_shovel",
+        "catalyst": "draconicevolution:wyvern_shovel"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_staff_of_power",
+        "catalyst": "draconicevolution:draconic_pick"
+    }
+]

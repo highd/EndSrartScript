@@ -1,0 +1,34 @@
+{
+ "minecraft:diamond_horse_armor:0": {
+  "heat": 2.0,
+  "cold": 2.0
+ },
+  "botania:manaweaveHelm:0": {
+  "heat": 2.0,
+  "cold": 2.0
+ },
+  "botania:manaweaveChest:0": {
+  "heat": 2.0,
+  "cold": 2.0
+ },
+  "botania:manaweaveLegs:0": {
+  "heat": 2.0,
+  "cold": 2.0
+ },
+  "botania:manaweaveBoots:0": {
+  "heat": 2.0,
+  "cold": 2.0
+ },
+  "botania:odinRing:0": {
+  "heat": 2.0,
+  "cold": 2.0
+ },
+  "botania:aesirRing:0": {
+  "heat": 20.0,
+  "cold": 20.0
+ },
+  "botania:superLavaPendant:0": {
+  "heat": 2.0,
+  "cold": 2.0
+ }
+}

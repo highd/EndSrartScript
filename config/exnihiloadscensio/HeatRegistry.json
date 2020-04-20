@@ -1,0 +1,7 @@
+{
+  "minecraft:lava": 3,
+  "minecraft:torch": 1,
+  "minecraft:flowing_lava": 3,
+  "minecraft:fire": 4,
+  "thermalfoundation:fluid_pyrotheum":20
+}

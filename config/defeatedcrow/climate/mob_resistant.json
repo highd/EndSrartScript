@@ -1,0 +1,42 @@
+{
+ "PolarBear": {
+  "heat": 1.0,
+  "cold": 4.0
+ },
+ "EnderDragon": {
+  "heat": 2.0,
+  "cold": 2.0
+ },
+ "Enderman": {
+  "heat": 0.0,
+  "cold": 4.0
+ },
+ "WitherBoss": {
+  "heat": 2.0,
+  "cold": 2.0
+ },
+ "Villager": {
+  "heat": 2.0,
+  "cold": 2.0
+ },
+ "Rabbit": {
+  "heat": 2.0,
+  "cold": 3.0
+ },
+ "Sheep": {
+  "heat": 1.0,
+  "cold": 3.0
+ },
+ "SnowMan": {
+  "heat": 0.0,
+  "cold": 6.0
+ },
+ "Shulker": {
+  "heat": 0.0,
+  "cold": 4.0
+ },
+ "VillagerGolem": {
+  "heat": 4.0,
+  "cold": 4.0
+ }
+}
