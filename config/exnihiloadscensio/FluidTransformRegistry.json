@@ -8,16 +8,7 @@
         "meta": 0
       }
     ],
-    "blocksToSpawn": [
-      {
-        "name": "minecraft:brown_mushroom",
-        "meta": 0
-      },
-      {
-        "name": "minecraft:red_mushroom",
-        "meta": 0
-      }
-    ],
+    "blocksToSpawn": [],
     "duration": 12000
   }
 ]

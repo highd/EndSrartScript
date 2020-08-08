@@ -223,5 +223,18 @@
  "222": "cyanite",
  "223": "moltenabyssalnite",
  "224": "moltenrefinedcoralium",
- "225": "moltendreadium"
+ "225": "moltendreadium",
+ "226": "clean_water_fluid",
+ "227": "salt_fluid",
+ "228": "liquid_hydrocarbon_fluid",
+ "229": "nitrogen_ice_fluid",
+ "230": "glowstone_fluid",
+ "231": "infected_water_fluid",
+ "232": "radioactive_water_fluid",
+ "233": "liquid_caramel_fluid",
+ "234": "magma_fluid",
+ "235": "frozen_water_fluid",
+ "236": "nitrogen_fluid",
+ "237": "liquid_chocolate_fluid",
+ "238": "methane_fluid"
 }

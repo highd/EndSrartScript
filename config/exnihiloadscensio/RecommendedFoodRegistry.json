@@ -714,6 +714,19 @@
       "meta": 0
     }
   },
+  "extraplanets:chocolate_bar:0": {
+    "value": 0.025,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
   "dcs_climate:dcs_food_cake:1": {
     "value": 0.25,
     "color": {
@@ -3158,19 +3171,6 @@
       "meta": 0
     }
   },
-  "aether_legacy:candy_cane:0": {
-    "value": 0.05,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "harvestcraft:baconcheeseburgeritem:0": {
     "value": 0.35,
     "color": {
@@ -3743,6 +3743,32 @@
       "meta": 0
     }
   },
+  "extraplanets:apple_iron:0": {
+    "value": 0.1,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
+  "extraplanets:apple_iron:1": {
+    "value": 0.1,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
   "harvestcraft:chickenparmasanitem:0": {
     "value": 0.2,
     "color": {
@@ -4224,32 +4250,6 @@
       "meta": 0
     }
   },
-  "aether_legacy:gummy_swet:0": {
-    "value": 0.5,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "aether_legacy:gummy_swet:1": {
-    "value": 0.5,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "harvestcraft:marshmellowsitem:0": {
     "value": 0.125,
     "color": {
@@ -4473,6 +4473,19 @@
   },
   "harvestcraft:baklavaitem:0": {
     "value": 0.25,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
+  "extraplanets:caramel_bar:0": {
+    "value": 0.025,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -5745,19 +5758,6 @@
       "meta": 0
     }
   },
-  "aether_legacy:healing_stone:0": {
-    "value": 0.0,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "harvestcraft:peppercornitem:0": {
     "value": 0.025,
     "color": {
@@ -5890,6 +5890,32 @@
   },
   "harvestcraft:montecristosandwichitem:0": {
     "value": 0.25,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
+  "galacticraftcore:food:8": {
+    "value": 0.35,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
+  "galacticraftcore:food:9": {
+    "value": 0.2,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -6356,8 +6382,34 @@
       "meta": 0
     }
   },
+  "galacticraftcore:food:0": {
+    "value": 0.2,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
   "dcs_climate:dcs_food_salad:2": {
     "value": 0.3,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
+  "galacticraftcore:food:1": {
+    "value": 0.2,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -6382,6 +6434,19 @@
       "meta": 0
     }
   },
+  "galacticraftcore:food:2": {
+    "value": 0.1,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
   "dcs_climate:dcs_food_salad:0": {
     "value": 0.3,
     "color": {
@@ -6395,8 +6460,73 @@
       "meta": 0
     }
   },
+  "galacticraftcore:food:3": {
+    "value": 0.05,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
+  "galacticraftcore:food:4": {
+    "value": 0.05,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
   "harvestcraft:curryitem:0": {
     "value": 0.275,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
+  "galacticraftcore:food:5": {
+    "value": 0.1,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
+  "galacticraftcore:food:6": {
+    "value": 0.05,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
+  "galacticraftcore:food:7": {
+    "value": 0.1,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -9398,8 +9528,21 @@
       "meta": 0
     }
   },
-  "aether_legacy:blue_berry:0": {
-    "value": 0.05,
+  "extraplanets:apple_diamond:0": {
+    "value": 0.2,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
+  "extraplanets:apple_diamond:1": {
+    "value": 0.2,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -9517,19 +9660,6 @@
   },
   "dcs_climate:dcs_food_pie:3": {
     "value": 0.25,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "aether_legacy:ginger_bread_man:0": {
-    "value": 0.05,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -10659,19 +10789,6 @@
       "meta": 0
     }
   },
-  "aether_legacy:enchanted_blueberry:0": {
-    "value": 0.2,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "harvestcraft:pumpkinsoupitem:0": {
     "value": 0.2,
     "color": {
@@ -11142,19 +11259,6 @@
   },
   "harvestcraft:chocolatecaramelfudgeitem:0": {
     "value": 0.15,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "aether_legacy:white_apple:0": {
-    "value": 0.0,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,

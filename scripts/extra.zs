@@ -6,12 +6,15 @@ import mods.tconstruct.Casting;
 import mods.immersiveengineering.Fermenter;
 import mods.astralsorcery.Altar;
 import mods.botania.ManaInfusion;
+import mods.botania.Orechid;
 import mods.immersiveengineering.Crusher;
 import mods.integrateddynamics.Squeezer;
 
 mods.avaritia.ExtremeCrafting.remove(<avaritia:resource:5>);
 mods.avaritia.ExtremeCrafting.remove(<avaritia:neutron_collector>);
 mods.avaritia.ExtremeCrafting.remove(<avaritia:neutronium_compressor>);
+mods.avaritia.ExtremeCrafting.remove(<avaritia:ultimate_stew>);
+mods.avaritia.ExtremeCrafting.remove(<avaritia:cosmic_meatballs:0>);
 
 recipes.remove(<projecte:item.pe_time_watch>);
 mods.avaritia.ExtremeCrafting.addShaped(<projecte:item.pe_time_watch>,
@@ -290,34 +293,94 @@ mods.astralsorcery.Altar.addDiscoveryAltarRecipe(<astralsorcery:BlockAltar:1>,10
   <botania:manaResource:7>,<astralsorcery:ItemIlluminationPowder:0>,<botania:manaResource:7>
 ]);
 mods.astralsorcery.Altar.removeAltarRecipe(<astralsorcery:BlockAltar:2>, 1);
-mods.astralsorcery.Altar.addAttunmentAltarRecipe(<astralsorcery:BlockAltar:2>, 1000, 200, [
-  <botania:manaResource:18>,<mekanism:ReinforcedAlloy:0>,<botania:manaResource:18>,
-  <evilcraft:lightningGrenade:0>,<abyssalcraft:dreadiumblock:0>,<evilcraft:lightningGrenade:0>,
-  <botania:manaResource:18>,<mekanism:ReinforcedAlloy:0>,<botania:manaResource:18>,
-  <astralsorcery:ItemCraftingComponent:2>,<astralsorcery:ItemCraftingComponent:2>,
-  <bloodarsenal:ItemBloodArsenalBase.BloodInfusedIronIngot:0>,<bloodarsenal:ItemBloodArsenalBase.BloodInfusedIronIngot:0>
-]);
-
 mods.astralsorcery.Altar.removeAltarRecipe(<astralsorcery:BlockStarlightInfuser:0>, 2);
-mods.astralsorcery.Altar.addConstellationAltarRecipe(<astralsorcery:BlockStarlightInfuser:0>, 1000, 200, [
-  <botania:manaResource:4>,<astralsorcery:ItemIlluminationPowder:0>,<botania:manaResource:4>,
-  <astralsorcery:ItemIlluminationPowder:0>,<ic2:resource:13>,<astralsorcery:ItemIlluminationPowder:0>,
-  <abyssalcraft:ethaxiumingot:0>,<astralsorcery:ItemIlluminationPowder:0>,<abyssalcraft:ethaxiumingot:0>,
-  <bloodarsenal:ItemBloodDiamond:1>,<bloodarsenal:ItemBloodDiamond:1>,
-  <bloodarsenal:ItemBloodDiamond:1>,<bloodarsenal:ItemBloodDiamond:1>,
-  <aura:prismWhite:0>,<aura:prismWhite:0>,
-  <enderio:itemMaterial:13>,<enderio:itemMaterial:13>,
-  <mekanism:AtomicAlloy:0>,<mekanism:AtomicAlloy:0>,
-  <galacticraftplanets:item_basic_mars:5>,<galacticraftplanets:item_basic_mars:5>
+
+
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe(
+  <tconstruct:toolforge:0>.withTag({"textureBlock":{"id":"minecraft:iron_block","Count":1,"Damage":0}}),
+  500, 200, [
+    <tconstruct:seared:0>,
+    <tconstruct:seared:0>,
+    <tconstruct:seared:0>,
+    <dcs_climate:dcs_ore_metalblock:10>,
+    <tconstruct:tooltables:3>,
+    <dcs_climate:dcs_ore_metalblock:10>,
+    <dcs_climate:dcs_ore_metalblock:10>,
+    <thermalexpansion:frame:0>,
+    <dcs_climate:dcs_ore_metalblock:10>
 ]);
-
-
 //mods.abyssalcraft.CreationRitual.addRitual(<unlocalizedName>, <bookType>, <dimension>, <requiredEnergy>, <livingSacrifice>, <item>, [offerings], nbt*)
 //mods.abyssalcraft.CreationRitual.removeRitual(<output>)
 mods.abyssalcraft.CreationRitual.removeRitual(<abyssalcraft:gatewaykeydl:0>);
+mods.abyssalcraft.CreationRitual.addRitual("transmutationGem", 0, 0, 600, false,
+  <abyssalcraft:transmutationgem:0>, [
+	<dcs_climate:dcs_coating_tool:5>,
+	<arsmagica2:essence:10>,
+	<dcs_climate:dcs_coating_tool:5>,
+	<actuallyadditions:itemCrystalEmpowered:2>,
+	<dcs_climate:dcs_coating_tool:5>,
+	<abyssalcraft:cpearl:0>,
+	<dcs_climate:dcs_coating_tool:5>,
+	<actuallyadditions:itemCrystalEmpowered:2>
+]);
+mods.abyssalcraft.CreationRitual.addRitual("oblivionCatalyst",0, 0, 5000, true,
+  <abyssalcraft:oc:0>,[
+    <extrautils2:ingredients:2>,
+	<abyssalcraft:oblivionshard:0>,
+	<extrautils2:ingredients:2>,
+	<abyssalcraft:oblivionshard:0>,
+	<extrautils2:ingredients:2>,
+	<abyssalcraft:oblivionshard:0>,
+	<bloodmagic:ItemComponent:16>,
+	<abyssalcraft:oblivionshard:0>
+]);
+mods.abyssalcraft.CreationRitual.addRitual(
+  "asorahGatewayKey", 1, 50, 10000, false, 
+  <abyssalcraft:gatewaykeydl:0>, [
+    <abyssalcraft:eoa:0>,
+    <abyssalcraft:psdl:0>,
+    <abyssalcraft:essence:0>,
+    <astralsorcery:ItemShiftingStar:0>,
+    <abyssalcraft:gatewaykey:0>,
+    <aura:gemWhite:0>,
+    <botania:manaResource:4>,
+    <astralsorcery:ItemShiftingStar:0>
+  ]
+);
 
+mods.botania.Orechid.removeOre("oreTungsten");
+mods.botania.Orechid.removeOre("oreDarkIron");
+
+mods.abyssalcraft.CreationRitual.removeRitual(<abyssalcraft:dreadaltartop:0>);
+mods.abyssalcraft.CreationRitual.removeRitual(<abyssalcraft:dreadaltarbottom:0>);
 mods.astralsorcery.Altar.addDiscoveryAltarRecipe(<abyssalcraft:gatewaykey:0>,500,100,[
   <astralsorcery:ItemIlluminationPowder:0>,<abyssalcraft:transmutationgem:0>,<abyssalcraft:oc:0>,
   <bloodarsenal:ItemBloodArsenalBase.BloodInfusedGlowstoneDust:0>,<enderio:itemMaterial:14>,<abyssalcraft:transmutationgem:0>,
   <enderio:itemMaterial:14>,<bloodarsenal:ItemBloodArsenalBase.BloodInfusedGlowstoneDust:0>,<astralsorcery:ItemIlluminationPowder:0>
 ]);
+mods.botania.RuneAltar.addRecipe(<arsmagica2:obelisk:0>,
+[<aura:gemWhite:0>,<arsmagica2:mana_focus:0>,<arsmagica2:mana_focus:0>,<botania:rune:4>,<bloodarsenal:ItemBloodArsenalBase.BloodInfusedIronIngot:0>,<enderio:itemAlloy:7>,<actuallyadditions:itemCrystalEmpowered:5>],
+20000);
+
+mods.immersiveengineering.BottlingMachine.addRecipe(
+  <arsmagica2:witchwood_sapling:0>,
+  <integrateddynamics:menrilSapling:0>,<liquid:liquid_essence>*1000);
+
+mods.immersiveengineering.BottlingMachine.addRecipe(
+  <dcs_climate:dcs_crop_sapling:1>,
+  <minecraft:sapling:4>,<liquid:empoweredoil>*1000);
+
+mods.immersiveengineering.BottlingMachine.addRecipe(
+  <actuallyadditions:itemCanolaSeed>,
+  <minecraft:pumpkin_seeds>,<liquid:creosote>*1000);
+  
+mods.actuallyadditions.Empowerer.addRecipe(
+	<actuallyadditions:itemCrystalEmpowered:4>, 
+    <tconstruct:materials:16>, 
+	<tconstruct:materials:15>, 
+	<tconstruct:materials:15>, 
+	<tconstruct:materials:15>, 
+	<tconstruct:materials:15>, 40000, 100);
+game.setLocalization("ac.ritual.gaiapylon", "Gaia Pylon Ritual"); 
+game.setLocalization("ac.ritual.gaiapylon.desc", "Gaia Pylon Ritual!");
+mods.astralsorcery.Altar.removeAltarRecipe(<astralsorcery:BlockCelestialGateway:0>,1);

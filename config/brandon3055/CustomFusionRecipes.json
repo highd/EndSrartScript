@@ -10,8 +10,8 @@
             "avaritia:block_resource,1,2",
 			"bloodmagic:BlockCrystal",
 			"bloodmagic:BlockCrystal",
-			"aether_legacy:enchanted_gravitite",
-			"aether_legacy:enchanted_gravitite",
+			"endstart:extra",
+			"endstart:extra",
             "rftoolsdim:dimension_builder",
             "rftoolsdim:dimension_builder",
             "ic2:te,1,63",
@@ -23,7 +23,7 @@
         "result": "rftoolsdim:dimension_builder",
         "catalyst": "rftools:builder",
         "energy": 7000000,
-        "tier": 1,
+        "tier": 2,
         "ingredients": [
             "avaritia:block_resource,1,2",
             "avaritia:block_resource,1,2",
@@ -84,5 +84,119 @@
         "mode": "REMOVE",
         "result": "draconicevolution:draconic_staff_of_power",
         "catalyst": "draconicevolution:draconic_pick"
+    },
+	{
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_block",
+        "catalyst": "draconicevolution:draconium_block"
+	},
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:draconic_block,4",
+        "catalyst": "draconicevolution:draconium_block,4",
+        "energy": 100000000,
+        "tier": 1,
+        "ingredients": [
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core",
+			"extraplanets:tier9_items,1,4",
+			"extraplanets:tier9_items,1,4",
+			"ic2:resource,1,11",
+			"ic2:resource,1,11",
+			"bloodarsenal:ItemBloodArsenalBase.BloodInfusedIronIngot",
+			"bloodarsenal:ItemBloodArsenalBase.BloodInfusedIronIngot",
+			"draconicevolution:dragon_heart"
+        ]
+    },
+	{
+        "mode": "REMOVE",
+        "result": "draconicevolution:awakened_core",
+        "catalyst": "minecraft:nether_star"
+	},
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:awakened_core",
+        "catalyst": "extrautils2:simpledecorative,1,2",
+        "energy": 100000000,
+        "tier": 2,
+        "ingredients": [
+            "mekanism:ControlCircuit,1,3",
+            "mekanism:ControlCircuit,1,3",
+			"bloodarsenal:ItemBloodDiamond",
+			"bloodarsenal:ItemBloodDiamond",
+			"aura:prismWhite",
+			"draconicevolution:draconic_energy_core",
+			"botania:manaResource,1,4",
+			"botania:manaResource,1,4",
+			"ic2:misc_resource,1,2",
+			"ic2:misc_resource,1,2"
+        ]
+    },
+	{
+        "mode": "REMOVE",
+        "result": "draconicevolution:crafting_pedestal,1,1",
+        "catalyst": "draconicevolution:crafting_pedestal"
+	},
+	{
+	    "mode": "ADD",
+        "result": "draconicevolution:crafting_pedestal,1,1",
+        "catalyst": "draconicevolution:crafting_pedestal",
+		"energy": 100000,
+		"tier": 0,
+		"ingredients": [
+            "draconicevolution:wyvern_core",
+            "botania:manaResource,1,18",
+            "avaritia:resource",
+            "extraplanets:tier4_items,1,4",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core",
+            "botania:manaResource,1,18",
+            "avaritia:resource",
+            "extraplanets:tier4_items,1,4",
+            "draconicevolution:wyvern_core"
+        ]
+    },
+	{
+	    "mode": "ADD",
+        "catalyst": "draconicevolution:wyvern_core",
+        "result": "draconicevolution:wyvern_energy_core",
+		"energy": 100000,
+		"tier": 1,
+		"ingredients": [
+            "enderio:blockIngotStorage,1,3",
+            "tconstruct:ingots,1,2",
+            "draconicevolution:wyvern_core",
+            "thermalfoundation:fertilizer,1,2",
+            "enderio:blockIngotStorage,1,3",
+            "enderio:blockIngotStorage,1,3",
+            "tconstruct:ingots,1,2",
+            "draconicevolution:wyvern_core",
+            "thermalfoundation:fertilizer,1,2",
+            "enderio:blockIngotStorage,1,3"
+        ]
+    },
+	{
+        "mode": "REMOVE",
+        "result": "draconicevolution:crafting_pedestal,1,2",
+        "catalyst": "draconicevolution:crafting_pedestal,1,1"
+	},
+	{
+	    "mode": "ADD",
+	    "result": "draconicevolution:crafting_pedestal,1,2",
+	    "catalyst": "draconicevolution:crafting_pedestal,1,1",
+		"energy": 10000,
+	    "tier": 1,
+		"ingredients": [
+	        "aura:gemWhite",
+	        "ic2:nuclear,1,7",
+	        "draconicevolution:draconic_block",
+	        "extraplanets:tier8_items,1,6",
+	        "botania:manaResource,1,9",
+	        "aura:gemWhite",
+	        "ic2:nuclear,1,7",
+	        "draconicevolution:wyvern_energy_core",
+	        "extraplanets:tier8_items,1,6",
+	        "botania:manaResource,1,9"
+        ]
     }
 ]
