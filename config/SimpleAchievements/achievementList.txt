@@ -1,3 +1,66 @@
 === 石の時代 ===::0
+「壁生成」を使って、簡易拠点を作る::1
 エンドの別の島へ向かう。::1
-Crookを作成する。::2
+「Wooden Shears」を作る。::1
+土を作る。::1
+「Sieve」を作る。::1
+骨粉を集める::1
+オアキドを作る::1
+鉄インゴットを入手する::1
+::0
+::0
+::0
+::0
+::0
+=== スチールへの道 ===::0
+「Carpenter」を作る。::1
+濃縮チャンバーを作る。::1
+「Cascading Processor」を作る。::1
+「Atomic Reconstructor」を作る。::1
+「Vortex Controller」を作る。::1
+「Alloy Smelter」を作る。::1
+「SAG Mill」を作る::1
+「Empowerer」を作る::1
+血の祭壇を作る。::1
+「Rubber Tree Sapling」を作る。::1
+「Blast Furnace」を作る。::1
+スチールを作る。::1
+::0
+=== エンドからの脱出 ===::0
+オアキドを自動化する::1
+「Ore Washing Plant」を作る。::1
+「Slice'N'Splice」を作る::1
+大地性集結プレートを作る::1
+エルブンゲートを開く::1
+Arcane Prismを作る::1
+エンドの空に浮かぶ図書館を発見し、クラフターコアを回収する。::1
+ウィザーを倒す。::1
+エンダードラゴンを倒す::1
+::0
+::0
+::0
+::0
+=== さらなる次元へ ===::0
+Luminus Crafting Tableを作る。::1
+Gatewat Keyを作る。::1
+Starlight Crafting Altarを作る::1
+Asorah's Dreaded Gateway Keyを作る::1
+=エンドコンテンツ、もっとエンド=::0 
+RainnowGeneratorをクリアアイテム及びProjectEのアイテムを用いず、 外部からの供給無しに継続稼働可能な施設を作る。::1
+y=-1000へ到達する。::1
+Botaniaのtake_it_easy、及びバグ等で解除不能なものを除き全実績を解除する。::1
+5億RF/t発電する。::1
+全てのSaplingと名前につくアイテムを収集する。(なお、名前はJEI上で表示されているものとする。)::1
+Creative_Conversion_Kitを作る::1
+抽出バイオームをコンプリートする。::1
+Mom's_Spaghettiを手に入れる::1
+Soul_Vialをコンプリートする。::1
+ME_液体パターンをコンプリートする::1
+レベル2000到達::1
+無限の酸素タンクを作る::1
+Creative_Pumpを作る::1
+永遠のギルティプールを作る::1
+Creative_Flux_Capacitorを作る::1
+Creative_Millを作る::1
+Creative_Generator(IndustrialCraft2)を作る::1
+Creative_Drumを作る::1

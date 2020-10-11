@@ -17,17 +17,6 @@ mods.avaritia.ExtremeCrafting.remove(<avaritia:ultimate_stew>);
 mods.avaritia.ExtremeCrafting.remove(<avaritia:cosmic_meatballs:0>);
 
 recipes.remove(<projecte:item.pe_time_watch>);
-mods.avaritia.ExtremeCrafting.addShaped(<projecte:item.pe_time_watch>,
-[[null, null, null, null, null, null, null, null, null],
-[null, null, null, <bloodarsenal:ItemBloodDiamond:2>, <bloodarsenal:ItemBloodDiamond:2>, <bloodarsenal:ItemBloodDiamond:2>, null, null, null],
-[null, null, <bloodarsenal:ItemBloodDiamond:2>, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>, <bloodarsenal:ItemBloodDiamond:2>, null, null],
-[null, <bloodarsenal:ItemBloodDiamond:2>, <avaritia:resource:6>, <notenoughwands:acceleration_wand:0>, <projecte:matter_block:1>, <notenoughwands:acceleration_wand:0>, <avaritia:resource:6>, <bloodarsenal:ItemBloodDiamond:2>, null],
-[null, <bloodarsenal:ItemBloodDiamond:2>, <avaritia:resource:6>, <projecte:matter_block:1>, <projecte:item.pe_philosophers_stone:0>, <projecte:matter_block:1>, <avaritia:resource:6>, <bloodarsenal:ItemBloodDiamond:2>, null],
-[null, <bloodarsenal:ItemBloodDiamond:2>, <avaritia:resource:6>, <notenoughwands:acceleration_wand:0>, <projecte:matter_block:1>, <notenoughwands:acceleration_wand:0>, <avaritia:resource:6>, <bloodarsenal:ItemBloodDiamond:2>, null],
-[null, null, <bloodarsenal:ItemBloodDiamond:2>, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>, <bloodarsenal:ItemBloodDiamond:2>, null, null],
-[null, null, null, <bloodarsenal:ItemBloodDiamond:2>, <bloodarsenal:ItemBloodDiamond:2>, <bloodarsenal:ItemBloodDiamond:2>, null, null, null],
-[null, null, null, null, null, null, null, null, null]
-]);
 
 recipes.remove(<projecte:relay_mk1>);
 mods.botania.RuneAltar.addRecipe(<projecte:relay_mk1>,
@@ -45,7 +34,6 @@ mods.botania.RuneAltar.addRecipe(<projecte:alchemical_chest>,
 50000);
 
 recipes.remove(<notenoughwands:acceleration_wand>);
-recipes.addShaped(<notenoughwands:acceleration_wand>, [[<extrautils2:opinium:8>, <projecte:item.pe_covalence_dust:2>, <extrautils2:opinium:8>],[<notenoughwands:moving_wand>, <notenoughwands:moving_wand>, <notenoughwands:moving_wand>], [<extrautils2:opinium:8>, <projecte:item.pe_covalence_dust:2>, <extrautils2:opinium:8>]]);
 
 recipes.remove(<notenoughwands:moving_wand>);
 recipes.addShaped(<notenoughwands:moving_wand>, [[<botania:manaResource:9>, <notenoughwands:advanced_wandcore>, <botania:manaResource:9>],[<mekanism:Polyethene:2>, <mekanism:CardboardBox>, <mekanism:Polyethene:2>], [<botania:manaResource:9>, <notenoughwands:advanced_wandcore>, <botania:manaResource:9>]]);
@@ -299,9 +287,9 @@ mods.astralsorcery.Altar.removeAltarRecipe(<astralsorcery:BlockStarlightInfuser:
 mods.astralsorcery.Altar.addDiscoveryAltarRecipe(
   <tconstruct:toolforge:0>.withTag({"textureBlock":{"id":"minecraft:iron_block","Count":1,"Damage":0}}),
   500, 200, [
-    <tconstruct:seared:0>,
-    <tconstruct:seared:0>,
-    <tconstruct:seared:0>,
+    <tconstruct:seared:3>,
+    <tconstruct:seared:3>,
+    <tconstruct:seared:3>,
     <dcs_climate:dcs_ore_metalblock:10>,
     <tconstruct:tooltables:3>,
     <dcs_climate:dcs_ore_metalblock:10>,
@@ -384,3 +372,42 @@ mods.actuallyadditions.Empowerer.addRecipe(
 game.setLocalization("ac.ritual.gaiapylon", "Gaia Pylon Ritual"); 
 game.setLocalization("ac.ritual.gaiapylon.desc", "Gaia Pylon Ritual!");
 mods.astralsorcery.Altar.removeAltarRecipe(<astralsorcery:BlockCelestialGateway:0>,1);
+
+mods.immersiveengineering.Crusher.addRecipe(<endstart:extra:5>*2, <extraplanets:saturn:6>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(<endstart:extra:6>*2, <extraplanets:uranus:3>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(<endstart:extra:7>*2, <extraplanets:neptune:6>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(<endstart:extra:8>*2, <extraplanets:pluto:6>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(<endstart:extra:9>*2, <extraplanets:eris:6>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(<endstart:extra:10>*2, <extraplanets:kepler22b:13>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(<endstart:extra:11>*2, <extraplanets:jupiter:6>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(<endstart:extra:12>*2, <extraplanets:jupiter:7>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(<endstart:extra:13>*2, <extraplanets:volcanic_rock>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(<endstart:extra:14>*2, <extraplanets:mercury:10>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(<endstart:extra:15>*2, <extraplanets:mercury:6>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(<endstart:extra:16>*2, <extraplanets:ceres:6>, 2048);
+
+
+mods.immersiveengineering.Crusher.addRecipe(<extraplanets:tier5_items:8>*2, <extraplanets:jupiter:11>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:slime_ball>*24, <extraplanets:saturn:12>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(<extraplanets:tier7_items:7>*2, <extraplanets:uranus:7>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(<extraplanets:tier8_items:6>*2, <extraplanets:neptune:10>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(<extraplanets:tier11_items:0>*2, <extraplanets:kepler22b:6>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(<extraplanets:tier11_items:1>*2, <extraplanets:kepler22b:7>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(<extraplanets:tier11_items:2>*2, <extraplanets:kepler22b:8>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(<extraplanets:tier11_items:3>*2, <extraplanets:kepler22b:9>, 2048);
+mods.immersiveengineering.Crusher.addRecipe(<extraplanets:tier11_items:4>*2, <extraplanets:kepler22b:10>, 2048);
+
+mods.botania.RuneAltar.addRecipe(<abyssalcraft:shoggothbiomass>*4,
+  [
+    <enderio:itemBrokenSpawner>,
+	<botania:manaResource:18>,
+	<botania:manaResource:18>,
+	<botania:manaResource:18>,
+	<bloodarsenal:ItemBloodArsenalBase.BloodInfusedGlowstoneDust>,
+	<bloodarsenal:ItemBloodArsenalBase.BloodInfusedGlowstoneDust>,
+	<actuallyadditions:itemCrystalEmpowered:2>,
+	<enderio:itemAlloy:7>,
+	<enderio:itemAlloy:7>,
+	<abyssalcraft:shadowgem>
+  ], 20000);
+    
